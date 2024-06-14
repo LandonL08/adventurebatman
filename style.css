@@ -1,0 +1,124 @@
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+.batmanbuttons,
+.no-button,
+.job-button,
+.option-one-screen, 
+.option-two-screen, 
+.redemption-screen,
+.shoot-screen,
+.hobo-screen,
+.option-one-end, 
+.option-two-end  {
+   display:none;
+   
+}
+*/
+
+
+/* Feel free to change any of the styling below!*/
+html,
+body {
+    margin: 35px;
+    padding: 0;
+}
+
+/* Style the body with a background color or image if desired */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fde311;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the title of your story */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the story opening container */
+.story-opening {
+    background-color: #b8becf;
+    border: 1px solid #010000;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the story image */
+.story-opening img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+   
+}
+
+/* Style the story opening message */
+.story-opening h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons container */
+.no-button,
+.job-button,
+.buttons {
+    margin: 10px;
+    padding: 10px 20
+}
+.no-button,
+.job-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+/* Style the option buttons */
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #1c1903;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+button:hover {
+    background-color: #958931;
+
+}
+
+/* Style the screens for option one and option two */
+.option-one-screen,
+.option-two-screen,
+.redemption-screen,
+.shoot-screen,
+.hobo-screen,
+.option-one-end,
+.option-two-end {
+    background-color: #b8becf;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Style the images in the screens */
+.image{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the text in the screens */
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Franklin Gothic Medium"
+}
+
